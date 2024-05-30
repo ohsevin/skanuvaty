@@ -10,7 +10,7 @@ description = "Blazing fast DNS/network/port scanner"
 [dependencies]
 clap = { version = "3.1.6", features = ["derive"] }
 async-channel = "1.6.1"
-tokio = { version = "1.17.0", features = ["full"] }
+tokio = { version = "1.18.5", features = ["full"] }
 futures = { version = "0.3.21" }
 trust-dns-client = "0.21.1"
 indicatif = "0.16.2"
